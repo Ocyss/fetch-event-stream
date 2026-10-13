@@ -17,7 +17,7 @@ await build({
 	importMap: 'deno.json',
 
 	package: {
-		name: 'fetch-event-stream',
+		name: '@ocyss/fetch-event-stream',
 		version: Deno.args[0],
 		repository: 'lukeed/fetch-event-stream',
 		license: 'MIT',

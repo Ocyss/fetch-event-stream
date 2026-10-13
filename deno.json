@@ -1,7 +1,7 @@
 {
 	"version": "0.1.5",
 	"exports": "./mod.ts",
-	"name": "@lukeed/fetch-event-stream",
+	"name": "@ocyss/fetch-event-stream",
 	"tasks": {
 		"build": "deno run -A scripts/build.ts",
 		"publish": "deno run -A scripts/publish.ts",

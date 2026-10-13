@@ -4,6 +4,8 @@ import type { ServerSentEventMessage } from '@std/http/server-sent-event-stream'
 
 export type { ServerSentEventMessage };
 
+export { utils };
+
 /**
  * Convert a `Response` body containing Server Sent Events (SSE) into an Async Iterator that yields {@linkcode ServerSentEventMessage} objects.
  *
